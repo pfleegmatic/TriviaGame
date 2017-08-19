@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Trivially Trivia</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href = "assets/css/reset.css">
+</head>
+<body>
+
+<div id="container">
+
+	<h1>Totally Trivial Trivia</h1>
+
+	<!--Button to game start-->
+	<button class="buttons" id="start">START</button>
+
+		<div id="questions">
+
+			<!--timer on html-->
+			<div class="countdown" id="time-left">
+				Time Left: <span class="countdown" id="timer"> </span>seconds
+			</div>
+
+			<br/>
+		
+			<!--the 8 questions-->
+			<div id="question1">
+				<h3>1) Which group released "Song from the Big Chair" on 25 February 1985 by Phonogram Records?</h3>
+				<br/>
+				<input type="radio" class="q1a" value="wrong" name="q1">Echo and the Bunnymen
+			
+				<input type="radio" class="q1b" value="wrong" name="q1">XTC
+			
+				<input type="radio" class="q1c" value="wrong" name="q1">Stone Roses
+
+				<input type="radio" class="q1d" value="correct" name="q1">Tears for Fears
+			</div> 
+
+			<br/><!--end of question 1-->
+
+			<div id="question2">
+				<h3>2) Recorded and released in 1987, M.A.R.R.S. "Pump up the Volume" sampled heavily from:</h3>
+				<br/>
+				<input type="radio" class="q2a" value="wrong" name="q2">Coldcut's "Say Kids What Time is it?"
+			
+				<input type="radio" class="q2b" value="wrong" name="q2">James Brown's "Funky Drummer."
+			
+				<input type="radio" class="q2c" value="wrong" name="q2">Eric B. &amp Rakim "I Know You Got Soul"
+
+				<input type="radio" class="q2d" value="correct" name="q2">All of the above
+			</div> 
+
+			<br/><!--end of question 2-->
+
+			<div id="question3">
+
+				<h3>3) Who wrote and sang "White Lines (Don't Do It)", a song used as part of an anti-drug public information film in the UK (Grange Hill)?</h3>
+				<br/>
+
+				<input type="radio" class="q3a" value="wrong" name="q3">Michael Jackson
+
+				<input type="radio" class="q3b" value="wrong" name="q3">Rick James
+
+				<input type="radio" class="q3c" value="correct" name="q3">Melle Mel (and Grand Master Flash)
+
+				<input type="radio" class="q3d" value="wrong" name="q3">Parliament
+			</div>
+
+			<br/><!--end of question 3-->
+
+			<div id="question4">
+
+				<h3>4) Which song is from Beastie Boys' debut album "License to Ill" released November 15, 1986?</h3>
+				<br/>
+
+				<input type="radio" class="q4a" value="wrong" name="q4">"No Sleep till Brooklyn"
+
+				<input type="radio" class="q4b" value="correct" name="q4">"Fight for Your Right"
+
+				<input type="radio" class="q4c" value="wrong" name="q4">"So What'cha Want"
+
+				<input type="radio" class="q4d" value="wrong" name="q4">"Sabotage"
+			</div>
+
+			<br/><!--end of question 4-->
+
+			<div id="question5">
+
+				<h3>5) Falco, real name Johann Holzel, of "Rock me Amadeus" and "Vienna Calling" rapped in:</h3>
+				<br/>
+
+				<input type="radio" class="q5a" value="wrong" name="q5">Finnish
+
+				<input type="radio" class="q5b" value="correct" name="q5">German
+
+				<input type="radio" class="q5c" value="wrong" name="q5">Dutch
+
+				<input type="radio" class="q5d" value="wrong" name="q5">Swedish
+			</div>
+
+			<br/><!--end of question 5-->
+
+			<div id="question6">
+
+				<h3>6) Which song is featured in the 1985 movie "Desperately Seeking Susan"?</h3>
+				<br/>
+
+				<input type="radio" class="q6a" value="correct" name="q6">Madonna's "Into the Groove"
+
+				<input type="radio" class="q6b" value="wrong" name="q6">Pat Benetar's "We are Young"
+
+				<input type="radio" class="q6c" value="wrong" name="q6">Cameo's "Word Up"
+
+				<input type="radio" class="q6d" value="wrong" name="q6">The Time "Jungle Love"
+			</div>
+
+			<br/><!--end of question 6-->
+
+			<div id="question7">
+
+				<h3>7) Which group/song of the 80's, brought back the "talk box" device of the mid-70s Peter Frampton era?</h3>
+				<br/>
+
+				<input type="radio" class="q7a" value="wrong" name="q7">Aerosmith's "Love in the Elavator"
+
+				<input type="radio" class="q7b" value="correct" name="q7">Bon Jovi's "Livin' on a Prayer"
+
+				<input type="radio" class="q7c" value="wrong" name="q7">Guns and Roses "Welcome to the Jungle"
+
+				<input type="radio" class="q7d" value="wrong" name="q7">Metallica "Enter Sandman"
+			</div>
+
+			<br/><!--end of question 7-->
+
+			<div id="question8">
+
+				<h3>8) Which group/song sampled from Otis Redding and Carla Thomas' version of "Tramp"?</h3>
+				<br/>
+
+				<input type="radio" class="q8a" value="wrong" name="q8">Kurtis Blow's "The Breaks"
+
+				<input type="radio" class="q8b" value="wrong" name="q8">Craig Mack's “Flavor In Your Ear” 
+
+				<input type="radio" class="q8c" value="wrong" name="q8">Paperboy's "Ditty"
+
+				<input type="radio" class="q8d" value="correct" name="q8">Salt-N-Pepa's "Push It"
+			</div><!--end of question 8-->
+
+			
+			<button class="buttons" id="finish">Finish</button>
+
+		</div> <!--end of id questions-->
+
+	<div id="results-screen">
+		<h1>Game done!</h1>
+		<br/>
+		<p>Correct Answers: <span id="number-correct"></span></p>
+		<p>Wrong Answers: <span id="number-wrong"></span></p>
+		<p>Not Answered: <span id="number-no-answer"></span></p>
+	</div>
+
+
+</div> <!--end of id container-->
+
+<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>

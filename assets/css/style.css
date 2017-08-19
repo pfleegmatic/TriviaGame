@@ -1,0 +1,58 @@
+body{
+background-image: url("../images/80s-background.jpg");
+}
+
+#container{
+	background-color: white;
+	width: 960px;
+	margin: 20px auto;
+	height: 1200px;	
+	text-align: center;
+}
+
+
+#container h1 {
+	font-size: 70px;
+	color: black;
+	font-weight: bold;	
+	margin-top: 10px;
+	padding: 40px;
+	background-color: gray;
+}
+
+.countdown {
+	font-weight: bold;
+}
+
+#time-left {
+	font-size: 30px;
+}
+
+h3 {
+
+	font-size: 20px;
+}
+
+.buttons{
+	width:200px;
+	height: 80px;
+	margin: 30px auto;
+	text-align: center;
+	font-size: 40px;
+	background-color: blue;
+	padding:-bottom: 8px;
+
+}
+
+#questions{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#results-screen {
+	font-size: 25px;
+
+}
+
+
+
